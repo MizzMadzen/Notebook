@@ -1,0 +1,37 @@
+/* IMPORTS */
+@import _mixins
+@import _variables
+
+/* SUBMIT BUTTON TO FORMS */
+.submit-button
+	width: 50% !important
+	margin-left: 25%
+	display: block
+	position: relative
+	margin-top: 30px
+	padding: 10px
+	background-color: $coal
+	overflow: hidden
+	border: none
+	+buttons(14px, $white)
+	+transitions
+
+.submit-button:hover
+	transform: scale(1.1)
+	+transitions
+
+
+
+.btn
+	cursor: pointer
+	display: block
+	padding: 10px
+	color: $white
+	background-color: $coal
+	overflow: hidden
+	border: none
+	+transitions
+
+.btn:hover
+	transform: scale(1.1)
+	+transitions
